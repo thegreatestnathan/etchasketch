@@ -6,16 +6,28 @@
     <title>Etch A Sketch!</title>
     <link rel="stylesheet" href="style.css"></style>
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="squaredivs"></div>
-    <div id="inputs">
-    <button id="resetsize">Reset Size</button>
-    <button id="resetcolors">Erase All Colors</button>
-    <input type="range" id="gridsize" name="gridsize" min="1" max="100" /></input>
-    <label for="gridsize">Grid Size</label>
-    <input type="color" id="color" name="color" value="#000000" />
-    <label for="color">Color</label>
-</div>
+    <div class="head"><h1 class="head">ETCH-A-SKETCH</h1></div>
+    <div id="content">
+        <div id="squaredivs"></div>
+        <div id="inputs">
+            <div id="BUTTONS">
+                <button id="resetsize">Reset Size</button>
+                <button id="resetcolors">Erase All Colors</button>
+            </div>
+            <div id="GRIDSIZE">
+                <input type="range" id="gridsize" name="gridsize" min="1" max="100" /></input>
+                <label for="gridsize">Grid Size</label>
+            </div>
+            <div id="COLOR">
+                <input type="color" id="color" name="color" value="#000000" />
+                <label for="color">Color</label>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

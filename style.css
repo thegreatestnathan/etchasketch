@@ -1,7 +1,18 @@
-#squaredivs {
-
+body {
+    background-color: #482b97;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#squaredivs {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
 .singlerow {
@@ -19,7 +30,44 @@
     background-color: purple;
 }*/
 
-body {
+.content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px;
+}
+
+.head {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 80px;
+}
+
+#inputs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#BUTTONS {
+    display: flex;
+    flex-direction: column;
+}
+
+#GRIDSIZE, #COLOR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-radius: 4px;
+    padding: 4px;
+}
+
+label {
+    color: white;
 }

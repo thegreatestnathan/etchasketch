@@ -64,6 +64,7 @@ colorreset.addEventListener("click", (event) => {
     let allSquares = document.querySelectorAll(".hovered");
     allSquares.forEach(square => {
         square.classList.remove("hovered");
+        square.style.backgroundColor = ""
     })
 });
 
